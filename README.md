@@ -19,7 +19,7 @@ SemanticFace is a framework for facial action estimation in the interpretable **
 </a>
 </p>
 
-Despite being trained only on real human faces, SemanticFace generalizes well to cartoon and stylized characters, producing stable and semantically plausible ARKit facial actions, while the other methods often fail or cannot detect faces.
+Despite being trained only on real human faces, SemanticFace generalizes well to cartoon and stylized characters, producing stable and semantically plausible ARKit facial actions, while the other methods often fail or cannot detect faces. High-resolution results can be found in `assets/demo.mp4`.
 
 
 
