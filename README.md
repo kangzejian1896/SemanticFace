@@ -72,7 +72,7 @@ The model will be saved to:
 ./adapters
 
 # Inference
-
+The experiments and demo are conducted on **1 NVIDIA A100 GPU**.
 Run inference using:
 ```bash 
 sh infer.sh
