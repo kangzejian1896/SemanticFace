@@ -81,6 +81,7 @@ sh infer.sh
 ```markdown
 > **Tip:** If you encounter OOM, change `--infer_backend vllm` to `--infer_backend pt`.  
 > This reduces GPU memory usage but will be significantly slower.
+```
 
 Results will be saved to: example_result.jsonl
 
