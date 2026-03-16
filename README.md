@@ -12,7 +12,6 @@ Official implementation of the paper:
 
 SemanticFace is a framework for facial action estimation in the interpretable **ARKit blendshape space**.  
 
-# Demo
 <!-- <video src="assets/demo.mp4" controls width="800"></video> -->
 <p align="center">
 <a href="assets/demo.mp4">
