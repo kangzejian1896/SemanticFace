@@ -39,9 +39,7 @@ Despite the large domain gap, SemanticFace remains capable of producing stable a
 
  https://github.com/kangzejian1896/SemanticFace/assets/demo.mp4
 
-<p align="center">
-  <img src="assets/demo.gif" width="800">
-</p>
+<video src="assets/demo.mp4" controls width="800"></video>
 
 ---
 
