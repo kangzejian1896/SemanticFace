@@ -37,15 +37,16 @@ Below is a demo on **cartoon and stylized faces**, where we compare SemanticFace
 Despite the large domain gap, SemanticFace remains capable of producing stable and semantically plausible ARKit facial actions, while the other methods often fail or cannot detect faces.
 
 <!-- <video src="assets/demo.mp4" controls width="800"></video> -->
-[![Demo](assets/demo.gif)](assets/demo.mp4)
+<p align="center">
+<a href="assets/demo.mp4">
+  <img src="assets/demo.gif" width="800">
+</a>
+</p>
 
 
 
 # Method Overview
 
-<p align="center">
-  <img src="assets/method.png" width="900">
-</p>
 
 SemanticFace adopts a **two-stage semantic distillation paradigm**.
 
