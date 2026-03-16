@@ -19,8 +19,7 @@ SemanticFace is a framework for facial action estimation in the interpretable **
 </a>
 </p>
 
-There is a demo on **cartoon and stylized faces**, where we compare SemanticFace with several existing methods, including **DeadFace, SMIRK, EMOCA, and Pixel3DMM**.  
-Despite the large domain gap, SemanticFace remains capable of producing stable and semantically plausible ARKit facial actions, while the other methods often fail or cannot detect faces.
+Despite being trained only on real human faces, SemanticFace generalizes well to cartoon and stylized characters, producing stable and semantically plausible ARKit facial actions, while the other methods often fail or cannot detect faces.
 
 
 
@@ -56,7 +55,7 @@ Install dependencies:
 ```bash
 pip install 'ms-swift' -U
 pip install vllm==0.13.0
-pip install qwen-vl-utils==0.0.14 -i https://mirrors.westlake.edu.cn/pypi/simple
+pip install qwen-vl-utils==0.0.14
 pip install modelscope
 ```
 
