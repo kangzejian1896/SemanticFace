@@ -10,10 +10,9 @@ Official implementation of the paper:
 
 **SemanticFace: Semantic Facial Action Estimation via Semantic Distillation in Interpretable Space**
 
----
+
 
 # Teaser
-
 <p align="center">
   <img src="assets/teaser.png" width="900">
 </p>
@@ -30,7 +29,7 @@ The framework produces interpretable ARKit coefficients from input images while 
 - perceptual consistency  
 - cross-identity generalization  
 
----
+
 
 # Demo
 
@@ -41,7 +40,7 @@ Despite the large domain gap, SemanticFace remains capable of producing stable a
 
 <video src="assets/demo.mp4" controls width="800"></video>
 
----
+
 
 # Method Overview
 
@@ -64,7 +63,6 @@ Ground-truth ARKit coefficients are converted into structured semantic descripti
 
 These structured semantic descriptions are distilled into a **multimodal large language model**, enabling the model to predict ARKit coefficients from images through **semantic reasoning rather than purely numerical regression**.
 
----
 
 # Installation
 
