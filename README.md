@@ -10,6 +10,17 @@ Official implementation of the paper:
 
 **SemanticFace: Semantic Facial Action Estimation via Semantic Distillation in Interpretable Space**
 
+# Demo
+
+Below is a demo on **cartoon and stylized faces**, where we compare SemanticFace with several existing methods, including **DeadFace, SMIRK, EMOCA, and Pixel3DMM**.  
+Despite the large domain gap, SemanticFace remains capable of producing stable and semantically plausible ARKit facial actions, while the other methods often fail or cannot detect faces.
+
+<!-- <video src="assets/demo.mp4" controls width="800"></video> -->
+<p align="center">
+<a href="assets/demo.mp4">
+  <img src="assets/demo.gif" width="800">
+</a>
+</p>
 
 
 # Teaser
@@ -31,17 +42,6 @@ The framework produces interpretable ARKit coefficients from input images while 
 
 
 
-# Demo
-
-Below is a demo on **cartoon and stylized faces**, where we compare SemanticFace with several existing methods, including **DeadFace, SMIRK, EMOCA, and Pixel3DMM**.  
-Despite the large domain gap, SemanticFace remains capable of producing stable and semantically plausible ARKit facial actions, while the other methods often fail or cannot detect faces.
-
-<!-- <video src="assets/demo.mp4" controls width="800"></video> -->
-<p align="center">
-<a href="assets/demo.mp4">
-  <img src="assets/demo.gif" width="800">
-</a>
-</p>
 
 
 
