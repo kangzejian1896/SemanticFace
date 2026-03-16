@@ -92,7 +92,7 @@ https://swift.readthedocs.io/en/latest/GetStarted/SWIFT-installation.html
 | RTX 20 / 30 / 40 Series | Supported                                 |
 | T4 / V100               | Some models may encounter NaN issues      |
 | Ascend NPU              | Some operators may be unsupported         |
-| Apple MPS               | Refer to issue #4572                      |
+| Apple MPS               | Refer to the MS-SWIFT official issue discussion|
 | CPU                     | Supported but extremely slow              |
 
 
