@@ -10,11 +10,9 @@ Official implementation of the paper:
 
 **SemanticFace: Semantic Facial Action Estimation via Semantic Distillation in Interpretable Space**
 
+SemanticFace is a framework for facial action estimation in the interpretable **ARKit blendshape space**.  
+
 # Demo
-
-Below is a demo on **cartoon and stylized faces**, where we compare SemanticFace with several existing methods, including **DeadFace, SMIRK, EMOCA, and Pixel3DMM**.  
-Despite the large domain gap, SemanticFace remains capable of producing stable and semantically plausible ARKit facial actions, while the other methods often fail or cannot detect faces.
-
 <!-- <video src="assets/demo.mp4" controls width="800"></video> -->
 <p align="center">
 <a href="assets/demo.mp4">
@@ -22,46 +20,22 @@ Despite the large domain gap, SemanticFace remains capable of producing stable a
 </a>
 </p>
 
+There is a demo on **cartoon and stylized faces**, where we compare SemanticFace with several existing methods, including **DeadFace, SMIRK, EMOCA, and Pixel3DMM**.  
+Despite the large domain gap, SemanticFace remains capable of producing stable and semantically plausible ARKit facial actions, while the other methods often fail or cannot detect faces.
 
-# Teaser
+
+
+# Method
 <p align="center">
   <img src="assets/teaser.png" width="900">
 </p>
 
-SemanticFace is a framework for facial action estimation in the interpretable **ARKit blendshape space**.  
+
 Instead of directly regressing coefficients, our approach reformulates facial expression prediction as a **structured semantic reasoning problem**.
 
 SemanticFace introduces **semantic supervision derived from ARKit blendshape parameters** and distills this knowledge into a **multimodal large language model (MLLM)**.  
 This enables the model to reason about facial muscle movements and expression semantics when predicting facial actions.
 
-The framework produces interpretable ARKit coefficients from input images while improving:
-
-- numerical accuracy  
-- perceptual consistency  
-- cross-identity generalization  
-
-
-
-
-
-
-# Method Overview
-
-
-SemanticFace adopts a **two-stage semantic distillation paradigm**.
-
-### Stage 1 — Semantic Supervision Construction
-
-Ground-truth ARKit coefficients are converted into structured semantic descriptions including:
-
-- expression category  
-- regional muscle movements  
-- emotional implication  
-- symmetry or asymmetry patterns  
-
-### Stage 2 — Multimodal Semantic Distillation
-
-These structured semantic descriptions are distilled into a **multimodal large language model**, enabling the model to predict ARKit coefficients from images through **semantic reasoning rather than purely numerical regression**.
 
 
 # Installation
