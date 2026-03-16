@@ -1,10 +1,10 @@
 # SemanticFace: Semantic Facial Action Estimation via Semantic Distillation in Interpretable Space
-
-<!-- [![Project Page](https://img.shields.io/badge/Project-Page-green)](https://github.com/kangzejian1896/SemanticFace)
-[![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org)
+<!-- 
+[![Project Page](https://img.shields.io/badge/Project-Page-green)](https://github.com/kangzejian1896/SemanticFace)
+[![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org) -->
 ![GitHub stars](https://img.shields.io/github/stars/kangzejian1896/SemanticFace)
 ![GitHub forks](https://img.shields.io/github/forks/kangzejian1896/SemanticFace)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) -->
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) 
 
 Official implementation of the paper:
 
