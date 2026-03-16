@@ -80,6 +80,22 @@ sh infer.sh
 
 Results will be saved to: example_result.jsonl
 
+# Supported Hardware
+The training and inference pipeline is based on MS-SWIFT.
+Hardware compatibility details can be found in the official documentation:
+
+https://swift.readthedocs.io/en/latest/GetStarted/SWIFT-installation.html
+
+| Hardware Environment    | Remarks                                   |
+| ----------------------- | ----------------------------------------- |
+| A10 / A100 / H100       | Fully supported (used in our experiments) |
+| RTX 20 / 30 / 40 Series | Supported                                 |
+| T4 / V100               | Some models may encounter NaN issues      |
+| Ascend NPU              | Some operators may be unsupported         |
+| Apple MPS               | Refer to issue #4572                      |
+| CPU                     | Supported but extremely slow              |
+
+
 # Convert to CSV for Unreal Engine MetaHuman
 
 To drive MetaHuman avatars in Unreal Engine, convert the JSON output to CSV format:
