@@ -36,7 +36,8 @@ The framework produces interpretable ARKit coefficients from input images while 
 Below is a demo on **cartoon and stylized faces**, where we compare SemanticFace with several existing methods, including **DeadFace, SMIRK, EMOCA, and Pixel3DMM**.  
 Despite the large domain gap, SemanticFace remains capable of producing stable and semantically plausible ARKit facial actions, while the other methods often fail or cannot detect faces.
 
-<video src="assets/demo.mp4" controls width="800"></video>
+<!-- <video src="assets/demo.mp4" controls width="800"></video> -->
+[![Demo](assets/demo.gif)](assets/demo.mp4)
 
 
 
