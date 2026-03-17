@@ -1,7 +1,6 @@
 # SemanticFace: Semantic Facial Action Estimation via Semantic Distillation in Interpretable Space
-<!-- 
-[![Project Page](https://img.shields.io/badge/Project-Page-green)](https://github.com/kangzejian1896/SemanticFace)
-[![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org) -->
+
+[![arXiv](https://img.shields.io/badge/arXiv-2603.14827-b31b1b.svg)](https://arxiv.org/abs/2603.14827)
 ![GitHub stars](https://img.shields.io/github/stars/kangzejian1896/SemanticFace)
 ![GitHub forks](https://img.shields.io/github/forks/kangzejian1896/SemanticFace)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) 
@@ -117,3 +116,18 @@ The predicted ARKit coefficients can be directly used to drive MetaHuman facial 
 Tutorial video:
 
 https://www.bilibili.com/video/BV1Yu4y1D7SL
+
+## Citation
+
+If you find this work useful, please consider citing:
+
+```bibtex
+@misc{kang2026semanticfacesemanticfacialaction,
+  title={SemanticFace: Semantic Facial Action Estimation via Semantic Distillation in Interpretable Space},
+  author={Zejian Kang and Kai Zheng and Yuanchen Fei and Wentao Yang and Hongyuan Zou and Xiangru Huang},
+  year={2026},
+  eprint={2603.14827},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2603.14827}
+}
