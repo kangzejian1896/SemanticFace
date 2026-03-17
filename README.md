@@ -34,6 +34,22 @@ SemanticFace introduces **semantic supervision derived from ARKit blendshape par
 This enables the model to reason about facial muscle movements and expression semantics when predicting facial actions.
 
 
+# Supported Hardware
+The training and inference pipeline is based on MS-SWIFT.
+Hardware compatibility details can be found in the official documentation:
+
+https://swift.readthedocs.io/en/latest/GetStarted/SWIFT-installation.html
+
+| Hardware Environment    | Remarks                                   |
+| ----------------------- | ----------------------------------------- |
+| A10 / A100 / H100       | Fully supported (used in our experiments) |
+| RTX 20 / 30 / 40 Series | Supported                                 |
+| T4 / V100               | Some models may encounter NaN issues      |
+| Ascend NPU              | Some operators may be unsupported         |
+| Apple MPS               | Refer to the MS-SWIFT official issue discussion|
+| CPU                     | Supported but extremely slow              |
+
+
 
 # Installation
 
@@ -83,22 +99,6 @@ sh infer.sh
 ```
 
 Results will be saved to: example_result.jsonl
-
-# Supported Hardware
-The training and inference pipeline is based on MS-SWIFT.
-Hardware compatibility details can be found in the official documentation:
-
-https://swift.readthedocs.io/en/latest/GetStarted/SWIFT-installation.html
-
-| Hardware Environment    | Remarks                                   |
-| ----------------------- | ----------------------------------------- |
-| A10 / A100 / H100       | Fully supported (used in our experiments) |
-| RTX 20 / 30 / 40 Series | Supported                                 |
-| T4 / V100               | Some models may encounter NaN issues      |
-| Ascend NPU              | Some operators may be unsupported         |
-| Apple MPS               | Refer to the MS-SWIFT official issue discussion|
-| CPU                     | Supported but extremely slow              |
-
 
 # Convert to CSV for Unreal Engine MetaHuman
 
